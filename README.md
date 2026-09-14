@@ -1,16 +1,31 @@
-# React + Vite
+# SIH26003 Prototype — Cognitive Gaming & Memory Assistance for Elderly Dementia Patients (NER)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A working prototype exploring Smart India Hackathon problem statement **SIH26003**: an AI-based cognitive gaming and memory assistance platform for elderly dementia patients in India's North Eastern Region (NER).
 
-Currently, two official plugins are available:
+> Built as a self-learning project (not an official SIH submission) to practice going from a problem statement to a working solution, with AI-assisted development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## The Problem
+Most dementia-care apps assume English/Hindi and steady internet connectivity — leaving out a large elderly population across Assam, Meghalaya, Manipur, Mizoram and other NER states who speak regional languages and often face patchy connectivity.
 
-## React Compiler
+## What's in this prototype
+- **Adaptive memory-matching game** — gets harder as the patient improves
+- **Voice-based daily reminders** — medicine, meals, appointments
+- **Family album** — tap to hear who a family member is
+- **Caregiver dashboard** — cognitive score trends and adherence alerts
+- **Language selector** — demonstrates NER-language-first design (Assamese, Bodo, Khasi, Manipuri)
+- **Offline-first concept** — core interactions designed to work without steady internet
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- React (Vite)
+- Tailwind CSS
+- lucide-react (icons)
+- recharts (dashboard charts)
 
-## Expanding the Oxlint configuration
+## Running locally
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Note
+This is a concept-stage prototype for demonstration purposes, not a production-ready or clinically validated application.
